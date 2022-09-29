@@ -18,41 +18,59 @@
                 <p>DETRITUS</p>
             </div>
             <div class="splash-left-credit-text">
-                Art from <a href="https://unsplash.com/photos/P-_hZkfU9D8">here</a>
+                <a href="https://unsplash.com/photos/P-_hZkfU9D8">Art from here</a>
             </div>
         </div>
         <div class="splash-right-container">
             <div class="splash-right-header">
                 <p>This is a dummy sign up page. Enter in some dummy information and pretend you're really excited for what you see. It's a really cool form I promise.</p>
-                <p>I'm begging you..</p>
+                <p>I'm <em>begging</em> you..</p>
             </div>
             <div class="splash-right-form-container">
-                <form action="" method="post">
+                <form action="" method="post" id="user-form">
                     <fieldset>
                         <legend>Let's do this!</legend>
 
-                        <label for="fname">First Name</label>
-                        <input type="text" name="fname" id="fname">
 
-                        <label for="lname">Last Name</label>
-                        <input type="text" name="lname" id="lname">
+                        <div class="form-line">
+                            <div class="form-element">
+                                <label for="fname">First Name</label>
+                                <input type="text" name="fname" id="fname">
+                            </div>
+                            <div class="form-element">
+                                <label for="lname">Last Name</label>
+                                <input type="text" name="lname" id="lname">
+                            </div>
+                        </div>
 
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email">
+                        <div class="form-line">
+                            <div class="form-element">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email">
+                            </div>
+                            <div class="form-element">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" name="phone" id="phone">
+                            </div>
+                        </div>
 
-                        <label for="phone">Phone Number</label>
-                        <input type="tel" name="phone" id="phone">
+                        <div class="form-line">
+                            <div class="form-element">
+                                <label for="pw">Password</label>
+                                <input type="password" name="pw" id="pw">
+                            </div>
+                            <div class="form-element">
+                                <label for="pw-c">Confirm Password</label>
+                                <input type="password" name="pw-c" id="pw-c">
+                            </div>
+                        </div>
 
-                        <label for="pw">Password</label>
-                        <input type="password" name="pw" id="pw">
-
-                        <label for="pw-c">Confirm Password</label>
-                        <input type="password" name="pw-c" id="pw-c">
                     </fieldset>
-                    <button type="submit">Submit</button>
+                    
                 </form>
             </div>
             <div class="splash-right-footer">
+                <button type="submit" form="user-form"p>Create Account</button>
                 <p>Made with hate!!</p>
             </div>
         </div>
