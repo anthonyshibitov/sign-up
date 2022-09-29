@@ -1,3 +1,69 @@
-h1 {
-    color: red;
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+.splash-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;    
+}
+
+/* SPLASH LEFT CONTAINER ---------------------- */
+
+.splash-left-container {
+    width: 40vw;
+    background-color: aliceblue;
+    position: relative;
+    background-image: url("splash.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.splash-right-container {
+    width: 60vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.splash-left-logo-banner {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: calc(50% - 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.splash-left-logo-banner > p {
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    text-shadow: 0px 0px 8px white;
+}
+
+.splash-left-credit-text {
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 0.5rem;
+    text-shadow: 0px 0px 3px white;
+}
+
+/* SPLASH RIGHT CONTAINER ---------------------- */
+
+.splash-right-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.splash-right-container > div {
+    padding-left: 40px;
 }
