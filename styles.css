@@ -79,6 +79,11 @@ input:focus {
     color: rgb(255, 255, 255);
     font-size: 3rem;
     text-shadow: 0px 0px 8px white;
+    transition: text-shadow 0.2s ease-in-out;
+}
+
+.splash-left-logo-banner > p:hover {
+    text-shadow: 0px 0px 20px white;
 }
 
 .splash-left-credit-text {
